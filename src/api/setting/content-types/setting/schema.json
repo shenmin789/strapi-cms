@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "settings",
+  "info": {
+    "singularName": "setting",
+    "pluralName": "settings",
+    "displayName": "Setting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "blog_title": {
+      "type": "string",
+      "required": false,
+      "default": "Updates, stories, and announcements from Henjin."
+    },
+    "faq_title": {
+      "type": "string",
+      "default": "Frequently asked questions"
+    }
+  }
+}
