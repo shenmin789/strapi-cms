@@ -60,7 +60,8 @@
     "seo_term": {
       "type": "uid",
       "targetField": "title",
-      "minLength": 1
+      "minLength": 1,
+      "required": true
     },
     "tags": {
       "type": "relation",
@@ -75,6 +76,12 @@
     "is_featured": {
       "type": "boolean",
       "default": false
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.metadata",
+      "required": true
     }
   }
 }

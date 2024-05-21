@@ -4,7 +4,8 @@
   "info": {
     "singularName": "faq-category",
     "pluralName": "faq-categories",
-    "displayName": "Faq Category"
+    "displayName": "Faq Category",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,7 +18,9 @@
     },
     "seo_term": {
       "type": "uid",
-      "targetField": "name"
+      "targetField": "name",
+      "required": true,
+      "minLength": 1
     }
   }
 }

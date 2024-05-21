@@ -20,6 +20,16 @@
     "faq_title": {
       "type": "string",
       "default": "Frequently asked questions"
+    },
+    "blog_metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.metadata"
+    },
+    "faq_metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.metadata"
     }
   }
 }

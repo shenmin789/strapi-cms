@@ -21,7 +21,7 @@
     "seo_term": {
       "type": "uid",
       "targetField": "name",
-      "required": false,
+      "required": true,
       "minLength": 1
     }
   }

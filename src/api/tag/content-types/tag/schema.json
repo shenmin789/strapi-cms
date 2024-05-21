@@ -20,7 +20,7 @@
     },
     "seo_term": {
       "type": "uid",
-      "required": false,
+      "required": true,
       "minLength": 1,
       "targetField": "name"
     }

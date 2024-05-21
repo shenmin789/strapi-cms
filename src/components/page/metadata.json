@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_metadata",
+  "info": {
+    "displayName": "Metadata",
+    "icon": "monitor"
+  },
+  "options": {},
+  "attributes": {
+    "meta_title": {
+      "type": "string",
+      "required": true
+    },
+    "meta_description": {
+      "type": "text"
+    }
+  }
+}

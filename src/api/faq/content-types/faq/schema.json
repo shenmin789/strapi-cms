@@ -26,7 +26,9 @@
     },
     "seo_term": {
       "type": "uid",
-      "targetField": "question"
+      "targetField": "question",
+      "required": true,
+      "minLength": 1
     }
   }
 }
