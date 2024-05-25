@@ -29,6 +29,11 @@
       "targetField": "question",
       "required": true,
       "minLength": 1
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.metadata"
     }
   }
 }
